@@ -10,22 +10,22 @@ body {
   font-family: "Nunito", sans-serif;
 }
 h1 {
-  font-size: 44px;
-}
-h2 {
   font-size: 40px;
 }
-h3 {
+h2 {
   font-size: 36px;
 }
-h4 {
+h3 {
   font-size: 32px;
 }
-h5 {
+h4 {
   font-size: 28px;
 }
-h6 {
+h5 {
   font-size: 24px;
+}
+h6 {
+  font-size: 20px;
 }
 .spacer {
   flex: 1 1 auto;
@@ -34,18 +34,18 @@ h6 {
 .button-sm {
   padding: 5px 20px;
   text-decoration: none;
-  border-radius: 20px;
+  border-radius: 25px;
   color: #24292e;
   margin: 8px;
   font-size: 16px;
 }
 .button-lg {
-  padding: 8px 30px;
+  padding: 8px 32px;
   text-decoration: none;
-  border-radius: 20px;
+  border-radius: 25px;
   color: #24292e;
   margin: 8px;
-  font-size: 16px;
+  font-size: 20px;
 }
 .button-square-lg {
   padding: 8px 30px;
@@ -67,6 +67,11 @@ h6 {
 }
 .button-border {
   border: 1px solid #24292e;
+}
+.button-icon {
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 25px;
 }
 .button-square-lg:active,
 .button-sm:active,
