@@ -7,4 +7,98 @@ html,
 body {
   height: 100%;
   width: 100%;
+  font-family: "Nunito", sans-serif;
+}
+h1 {
+  font-size: 44px;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 36px;
+}
+h4 {
+  font-size: 32px;
+}
+h5 {
+  font-size: 28px;
+}
+h6 {
+  font-size: 24px;
+}
+.spacer {
+  flex: 1 1 auto;
+}
+/*Button*/
+.button-sm {
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 20px;
+  color: #24292e;
+  margin: 8px;
+  font-size: 16px;
+}
+.button-lg {
+  padding: 8px 30px;
+  text-decoration: none;
+  border-radius: 20px;
+  color: #24292e;
+  margin: 8px;
+  font-size: 16px;
+}
+.button-square-lg {
+  padding: 8px 30px;
+  text-decoration: none;
+  color: #24292e;
+  margin: 8px;
+  font-size: 16px;
+}
+.button-dark {
+  background: #24292e;
+  color: #f5f5f5;
+}
+.button-light {
+  background: #f5f5f5;
+  color: #24292e;
+}
+.button-success {
+  background: rgb(255, 208, 0);
+}
+.button-border {
+  border: 1px solid #24292e;
+}
+.button-square-lg:active,
+.button-sm:active,
+.button-lg:active {
+  box-shadow: 0px 0px 2px #484848;
+}
+/*input*/
+.input-circle {
+  background: #f5f5f5;
+  padding: 8px 3px;
+  border: none;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  border-radius: 25px;
+  width: auto;
+  margin: 0 20px;
+}
+input[type="text"] {
+  max-width: 140px;
+}
+.input {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  background: #f5f5f5;
+  border: none;
+  width: 100%;
+  color: #989898;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.input:focus {
+  outline: none;
 }

@@ -1,0 +1,21 @@
+.nav {
+  color: #fafafa;
+  padding: 12px 100px;
+  display: flex;
+  align-items: center;
+}
+.nav .input-circle {
+  width: 200px;
+}
+.input-circle > .material-icons {
+  padding: 0 10px;
+}
+.material-icons {
+  color: #989898;
+  padding: 0 0 0 0px;
+}
+@media screen and (max-width: 768px) {
+  .nav {
+    padding: 8px 15px;
+  }
+}
